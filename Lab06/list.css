@@ -1,0 +1,42 @@
+ol{
+    width: 100%;
+    background-color: yellow;
+    padding: 30px;
+}
+li{
+    line-height: 50px;
+    background-color: lightgreen;
+    width: 100%;
+    margin:1.5% ;
+    margin-left: 3%;
+    position: relative;
+}
+
+p{
+    height: 50px;
+    margin: 0;
+    position: absolute;
+    background-color: coral;
+    font-size: 34px;
+    margin-top: -1%;
+}
+#pk{
+    margin-top: 2%;
+}
+
+
+li:nth-child(1){
+    list-style-image: url("images/iconfinder_apple_753485.png") ;
+}
+li:nth-child(2){
+    list-style-image: url("images/iconfinder_fruit_strawberry_1898843.png");
+}
+li:nth-child(3){
+    list-style-image: url("images/iconfinder_fruit_kiwi_1898853.png") ;
+}
+li:nth-child(4){
+    list-style-image: url("images/iconfinder_fruit_mango_1898851.png") ;
+}
+li:nth-child(5){
+    list-style-image: url("images/iconfinder_fruit_pomegranate_1898844.png") ;
+}

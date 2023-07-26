@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body {
+    font-size: 14px;
+    background-color: black;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    background-color: blue;
+    width: 100%;
+    margin-top: 50px;
+    padding-bottom: 2%;
+}
+.flexbox{
+    display: flex;
+}
+.item_1{
+    margin-left: 3%;
+    margin-top: 5%;
+}
+.item{
+    margin-left: 12%;
+    margin-top: 5%;
+}
+.inp_out {
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: 'Lato', sans-serif;
+}
+pre{
+    margin: 0px;font-family: 'Lato', sans-serif;
+
+}
+input::placeholder{
+    color: white;
+}
+input{
+    margin-top: 10%;
+    border-radius: 25px;
+    background-color: blue;
+    color: white;
+    border-color: white;
+}
+hr{
+    clear: both;
+}
+#razd_a{
+    margin-left: 5%;
+}
+#razd_b{
+    margin-left: 30%;
+}
+.p_nuz{
+    margin-left: 5%;
+}
+.nuz_hr
+{
+    margin-left: 2%;
+    margin-top: 10%;
+
+}
+.nuz_hr_img{
+    margin-left: 1%;
+    margin-top: 10%;
+
+}
+button{
+    margin-top: 3%;
+    border-color: white;
+    margin-bottom:20% ;
+}
+.white_txt{
+    color:white;
+    font-family: 'Bruno Ace SC', cursive;
+}
+.social{
+    width: 16px;
+    height: 16px;
+    filter: invert(1);
+}
+.head_block{
+    background-image: url("images/0.png");
+    background-repeat: no-repeat;
+    background-attachment : scroll;
+    width: 100%;
+    height: 100%;
+    margin-left: 7%;
+}
+.block{
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width: 100%;
+    height: 946px;
+}
+.block_1{
+
+    background-image: url("images/1.png");
+    background-position:0% 100% ;
+}
+.block_2{
+    background-image: url("images/2.png");
+    background-position:75% 70% ;
+}
+.block_3{
+    background-image: url("images/3.png");
+    background-position:55% 65% ;
+}
+.block_4{
+    background-image: url("images/4.png");
+    background-position:65% 80% ;
+}
+.block_5{
+    background-image: url("images/5.png");
+    background-position:23% 55% ;
+}
+.block_6{
+    background-image: url("images/6.png");
+    background-position:17% 25% ;
+}

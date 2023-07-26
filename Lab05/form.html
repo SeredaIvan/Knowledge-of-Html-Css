@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Form</title>
+</head>
+<body>
+<table align="center" style="widht:300px ; background-color: lightgray;border :3px solid;border-color: grey ">
+  <form >
+    <tr>
+      <th>E-mail:</th><td><input required type="email" placeholder="Your E-mail" style="background-color: #ffff00;border :3px solid; border-color: khaki "></td>
+    </tr>
+    <tr><th>Пароль:</th><td><input required type="password" placeholder="Password" style="background-color: pink;border :3px solid;border-color: purple; "></td></tr>
+    <tr><th>Повторіть пароль:</th><td><input required type="password" placeholder="Repeat password" style="background-color: pink;border :3px solid;border-color: purple; "></td></tr>
+    <tr><th>Ім'я:</th><td><input required type="text" placeholder="Name" style="background-color: #ffff00;border :3px solid;border-color: khaki"></td></tr>
+    <tr><th>Прізвище:</th><td><input required type="text" placeholder="Surname" style="background-color: #ffff00;border :3px solid;border-color: #f0e68c"></td></tr>
+    <tr><th>Стать:</th><td><input type="radio" name="gender">Чоловік <input type="radio" name="gender">Жінка</td></tr>
+    <tr><th>Місто:</th><td><select SIZE=1 style="background-color: cornflowerblue;border :3px solid;border-color: darkblue; ">
+      <option> Рівне
+      <option> Житомир
+      <option> Київ
+      <option> Харків
+      <option> Хмельницьк
+      <option> Дніпропетровськ
+    </select></td></tr>
+    <tr><th>Про себе:</th><td><textarea COLS=20 ROWS=6 style="background-color: lightgreen;border :3px solid;border-color: green "></textarea></td></tr>
+    <tr><th>Погодження:</th><td>
+      <input type="checkbox">Отримувати розсилку з сайту<br>
+      <input type="checkbox">Погоджуюсь з правилами сайту<br>
+      <input required type="checkbox">Приховати профіль на сайті
+    </td></tr>
+    <td></td>
+    <tr><th></th><th><button type="" style="background-color: lightgreen;border :3px solid;border-color: green ">Зареєструватись</button><button type="reset" style="background-color: lightcoral;border :3px solid;border-color: red ">Очистить</button></th> </tr>
+  </form>
+</table>
+</body>
+</html>

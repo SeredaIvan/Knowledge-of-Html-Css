@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+body{
+    background: black;
+}
+.container{
+    display: flex;
+    flex-direction: row ;
+}
+.duplicate-text {
+
+    margin-top: 10%;
+    width: 450px;
+    height: 600px;
+    display: block;
+
+    font-size: 170px;
+
+    font-family: 'Open Sans', sans-serif;
+
+}
+.duplicate-text::after {
+
+    font-size: 170px;
+    content: "Web \A Design";
+    position: absolute;
+    top: -2px;
+    left: 5px;
+    z-index: -2;
+    opacity: 1;
+    color: deepskyblue;
+    white-space: pre-wrap;
+    margin-top: 10%;
+}
+
+.my-text {
+    -webkit-text-stroke: 1px black;
+    text-stroke: 1px black;
+    color: deepskyblue;
+}
+.board {
+    margin-left: 15% ;
+    margin-top: 3%;
+    display: block;
+    width: 800px;
+    height: 800px;
+    background: deepskyblue;
+    border-radius: 0 25% 0 25%;
+    background-size: 25% 25%;
+    background-position: 0 0, 25px 25px;
+}
+.item_div1{
+    width: 400px;
+    height: 400px;
+    background: deepskyblue;
+    float: left;
+}
+.item_div2{
+    width: 400px;
+    height: 400px;
+    border-radius: 0 50%  0 0 ;
+    background: lightpink;
+    float: right;
+}
+.item_div3{
+    width: 400px;
+    height: 400px;
+    background: lightpink;
+    float: left;
+    border-radius: 0 0 0 50%    ;
+}
+.item_div4{
+    width: 400px;
+    height: 400px;
+    background: deepskyblue;
+    float: right;
+}
+.menu{
+    display: flex;
+    margin-right: 1.85%;
+    margin-bottom: 50%;
+}
+.menu li{
+    width: 400px;
+    list-style: none;
+    background-color: deepskyblue;
+    position: relative;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    transition: all .5s;
+}
+.menu a:hover{
+    background-color: lightpink;
+    color: black;
+}
+.menu ul{
+    position: absolute;
+    display: none;
+    left: 0 ;
+    top:100%;
+    padding: 0;
+}
+.menu li:hover ul{
+    display: block;
+
+}
+
+.menu ul ul{
+
+    display: none;
+    position: absolute;
+    top:0;
+    left:100%;
+
+
+}
+

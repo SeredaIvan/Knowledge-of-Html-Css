@@ -1,0 +1,38 @@
+header{
+    height: 150px;
+    background-color: powderblue;
+    text-align: center;
+    font-size: 50px;
+}
+footer{
+    height: 150px;
+    background-color: blue;
+    text-align: center;
+    font-size: 50px;
+}
+.item1{
+    flex-grow: 2;
+    height: 200px;
+    background-color: hotpink;
+    text-align: center;
+    font-size: 30px;
+}
+.item2{
+    flex-grow: 3;
+    height: 200px;
+    background-color: greenyellow;
+    word-wrap: break-word;
+    font-size: 20px;
+    text-align: center;
+}
+.item3{
+    flex-grow: 2;
+    height: 200px;
+    background-color: yellow;
+    text-align: center;
+    font-size: 30px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}

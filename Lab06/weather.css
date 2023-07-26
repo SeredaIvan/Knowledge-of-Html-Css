@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background-color: lightgrey;
+    background-image: url("images/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.block{
+    display: block;
+}
+#mon{
+    width: 70px;
+    height: 50px;
+    float: left;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+#rik{
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-right: 3%;
+    margin-top: 1%;
+}
+#chas{
+    margin-right: 20%;
+    padding: 50px;
+    padding-bottom: 0;
+    text-align:center ;
+    font-size: 40px;
+}
+
+#img_hmara{
+    width: 400px;
+    height: 170px;
+    margin-top: -50%;
+}
+#buttons{
+    display: inline-block;
+    width: 100%;
+    margin-top: 30%;
+    margin-left: -117%;
+}
+#osnova{
+    position: relative;
+    text-align: center;
+}
+#white{
+    display:inline-block;
+    height: 150px;
+    width: 20%;
+    background-color: white;
+    margin-left: 20% ;
+    margin-top: 15%;
+    box-shadow: 5px 5px 15px white;
+    position: relative;
+}
+#black{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    margin-left: -50% ;
+    margin-top: -85%;
+    box-shadow: 15px 15px 50px black;
+    position: relative;
+}
+#img{
+    margin-left: 25% ;
+}
+.white_text{
+    color:white;
+}
+#x{
+    height: 35px;
+    width: 35px;
+    float: right;
+    filter:invert() ;
+
+}
+#x2{
+    height: 35px;
+    width: 35px;
+    margin-left: 88%;
+
+}
+#sp{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 10px ;
+    vertical-align: bottom;
+    font-size: 80px;
+}
+#oct{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px ;
+    vertical-align: bottom;
+    font-size: 14px;
+}
+#parent{
+    display: flex;
+    width: 100%;
+
+}
+.child{
+    flex-grow:1;
+}
+
+.button {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background: radial-gradient(farthest-side ellipse at top left, white, black);
+    position: absolute;
+    margin-top: -29%;
+    margin-left: -70%;
+}
